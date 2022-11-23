@@ -1,0 +1,18 @@
+﻿@model TaskFour.Models.User
+
+
+<tr>
+	<td>
+		<input type="checkbox" id="deleteById" name="deleteById" value="@Model.Id" class="custom-checkbox chkCheckBoxId" />
+	</td>
+	<td>@Model.Name</td>
+	<td>@Model.Email</td>
+	<td>@Model.RegisterDate</td>
+	<td>@Model.LoginTime</td>
+	<td>@Model.IsActive</td>
+	<td>
+		<form method="post" asp-action="DeleteUser" asp-route-id="@Model.Id">
+			<button type="submit" class="btn btn-danger"> Delete</button>
+		</form>
+	</td>
+</tr>

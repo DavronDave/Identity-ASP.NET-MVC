@@ -1,0 +1,9 @@
+C:\Users\davro\Desktop\ASP.NET CORE\TaskFour\TaskFour\obj\Debug\net5.0\TaskFour.csproj.AssemblyReference.cache
+C:\Users\davro\Desktop\ASP.NET CORE\TaskFour\TaskFour\obj\Debug\net5.0\TaskFour.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\davro\Desktop\ASP.NET CORE\TaskFour\TaskFour\obj\Debug\net5.0\TaskFour.AssemblyInfoInputs.cache
+C:\Users\davro\Desktop\ASP.NET CORE\TaskFour\TaskFour\obj\Debug\net5.0\TaskFour.AssemblyInfo.cs
+C:\Users\davro\Desktop\ASP.NET CORE\TaskFour\TaskFour\obj\Debug\net5.0\TaskFour.csproj.CoreCompileInputs.cache
+C:\Users\davro\Desktop\ASP.NET CORE\TaskFour\TaskFour\obj\Debug\net5.0\TaskFour.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\davro\Desktop\ASP.NET CORE\TaskFour\TaskFour\obj\Debug\net5.0\TaskFour.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\davro\Desktop\ASP.NET CORE\TaskFour\TaskFour\obj\Debug\net5.0\TaskFour.RazorAssemblyInfo.cache
+C:\Users\davro\Desktop\ASP.NET CORE\TaskFour\TaskFour\obj\Debug\net5.0\TaskFour.RazorAssemblyInfo.cs

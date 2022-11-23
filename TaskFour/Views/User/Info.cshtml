@@ -1,0 +1,76 @@
+﻿@model IQueryable<User>
+
+<script src="~/lib/jquery/jquery.min.js" type="text/javascript"></script>
+<script type="text/javascript" language="javascript">
+     $(function(){
+
+        $("#checkAll").click(function () {
+            $("input[name='deleteById']").attr("checked", this.checked);
+        });
+
+        $("input[name='deleteById']").click(function () {
+            if ($("input[name='deleteById']").length == $("input[name='deleteById']:checked").length) {
+                $("#checkAll").attr("checked", "checked");
+            }
+            else {
+                $("#checkAll").removeAttr("checked");
+            }
+        });
+
+        $("#deleteBtn").click(function () {
+            var count = $("input[name='deleteById']:checked").length;
+            if (count == 0) {
+                alert("No rows selected to delete");
+                return false;
+            }
+            else {
+                return confirm(count + " row(s) will be deleted");
+            }
+        });
+
+        //$("#blockBtn").click(function () {
+        //    var count = $("input[name='blockById']:checked").length;
+        //    if (count == 0) {
+        //        alert("No rows selected to block");
+        //        return false;
+        //    }
+        //    else {
+        //        return confirm(count + " row(s) will be blocked!");
+        //    }
+        //});
+     });
+</script>
+
+<div class="container py-4">
+	<div class="card">
+		<div class="card-header bg-primary text-white">
+			<h5>Employee Lists</h5>
+		</div>
+		<div class="card-body">
+			@using (Html.BeginForm("Delete", "User", FormMethod.Post))
+			{
+				<table class="table table-bordered">
+					<thead>
+						<tr>
+							<th>
+                                <input type="checkbox" id="checkAll"/>
+                            </th>
+							<th>Name</th>
+							<th>Email</th>
+							<th>Register Date</th>
+							<th>Last Login Date</th>
+							<th>IsActive</th>
+							<th>Delete</th>
+
+						</tr>
+					</thead>
+					<tbody>
+						@Html.EditorForModel()
+					</tbody>
+				</table>
+                <input type="submit" id="deleteBtn" value="Delete users" class="btn btn-primary"/> 
+			}
+		</div>
+	</div>
+</div>
+
