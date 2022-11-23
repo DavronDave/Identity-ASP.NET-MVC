@@ -7,6 +7,7 @@ using NuGet.Packaging.Signing;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Security.Claims;
 using System.Threading.Tasks;
 using TaskFour.DataLayer;
@@ -159,9 +160,9 @@ namespace TaskFour.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Delete(IEnumerable<string> deleteById)
+        public async Task<IActionResult> Delete(IEnumerable<string> deleteBlock)
         {
-            foreach (var id in deleteById)
+            foreach (var id in deleteBlock)
             {
                 var user = await _userManager.FindByIdAsync(id);
                 var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
@@ -178,17 +179,30 @@ namespace TaskFour.Controllers
             return RedirectToAction("Info", "User");
         }
 
-        //[HttpPost]
-        //public async Task<IActionResult> Block(IEnumerable<string> blockById)
-        //{
-        //    foreach (var id in blockById)
-        //    {
-        //        var user = await _userManager.FindByIdAsync(id);
-        //        user.IsActive = false;
-        //        await _userManager.UpdateAsync(user);
-        //    }
-        //    _dbContext.SaveChanges();
-        //    return RedirectToAction("Info", "User");
-        //}
+        [HttpPost]
+        public async Task<IActionResult> Block(IEnumerable<string> deleteBlock)
+        {
+            foreach (var id in deleteBlock)
+            {
+                var user = await _userManager.FindByIdAsync(id);
+                user.IsActive = false;
+                await _userManager.UpdateAsync(user);
+            }
+            _dbContext.SaveChanges();
+            return RedirectToAction("Info", "User");
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> UnBlock(IEnumerable<string> deleteBlock)
+        {
+            foreach (var id in deleteBlock)
+            {
+                var user = await _userManager.FindByIdAsync(id);
+                user.IsActive = true;
+                await _userManager.UpdateAsync(user);
+            }
+            _dbContext.SaveChanges();
+            return RedirectToAction("Info", "User");
+        }    
     }
 }

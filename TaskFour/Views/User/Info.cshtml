@@ -5,11 +5,11 @@
      $(function(){
 
         $("#checkAll").click(function () {
-            $("input[name='deleteById']").attr("checked", this.checked);
+            $("input[name='deleteBlock']").attr("checked", this.checked);
         });
 
-        $("input[name='deleteById']").click(function () {
-            if ($("input[name='deleteById']").length == $("input[name='deleteById']:checked").length) {
+        $("input[name='deleteBlock']").click(function () {
+            if ($("input[name='deleteBlock']").length == $("input[name='deleteBlock']:checked").length) {
                 $("#checkAll").attr("checked", "checked");
             }
             else {
@@ -18,7 +18,7 @@
         });
 
         $("#deleteBtn").click(function () {
-            var count = $("input[name='deleteById']:checked").length;
+            var count = $("input[name='deleteBlock']:checked").length;
             if (count == 0) {
                 alert("No rows selected to delete");
                 return false;
@@ -47,8 +47,11 @@
 			<h5>Employee Lists</h5>
 		</div>
 		<div class="card-body">
-			@using (Html.BeginForm("Delete", "User", FormMethod.Post))
-			{
+			@*@using (Html.BeginForm("Delete", "User", FormMethod.Post))
+			{*@
+                <form asp-action="" asp-controller="User" method="post">
+
+                
 				<table class="table table-bordered">
 					<thead>
 						<tr>
@@ -68,8 +71,11 @@
 						@Html.EditorForModel()
 					</tbody>
 				</table>
-                <input type="submit" id="deleteBtn" value="Delete users" class="btn btn-primary"/> 
-			}
+                <input type="submit" id="deleteBtn" value="Delete users" class="btn btn-primary" formaction="Delete"/> 
+                <input type="submit" id="blockBtn" value="Block users" class="btn btn-primary" formaction="Block"/>
+                <input type="submit" id="blockBtn" value="Unblock users" class="btn btn-primary" formaction="UnBlock"/>
+                </form>
+			@*}*@
 		</div>
 	</div>
 </div>
