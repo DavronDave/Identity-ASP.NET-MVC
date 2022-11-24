@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "CUVEkZ0crRl9DW9AGCxuQx/+v9AqdmeJShLh2AmJ+x4=",
+  "Hash": "s2XA+UTcK+LNEX1ZboUrxYpqvP8IwrYaiyMB3RY5cmI=",
   "Source": "TaskFour",
   "BasePath": "_content/TaskFour",
   "Mode": "Default",
@@ -627,6 +627,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\davro\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\5.0.17\\staticwebassets\\V4\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Users\\davro\\Desktop\\ASP.NET CORE\\TaskFour\\TaskFour\\wwwroot\\css\\Position.css",
+      "SourceId": "TaskFour",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\davro\\Desktop\\ASP.NET CORE\\TaskFour\\TaskFour\\wwwroot\\",
+      "BasePath": "_content/TaskFour",
+      "RelativePath": "css/Position.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Position.css"
     },
     {
       "Identity": "C:\\Users\\davro\\Desktop\\ASP.NET CORE\\TaskFour\\TaskFour\\wwwroot\\css\\site.css",

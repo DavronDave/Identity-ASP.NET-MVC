@@ -9,7 +9,16 @@
 	<td>@Model.Email</td>
 	<td>@Model.RegisterDate</td>
 	<td>@Model.LoginTime</td>
-	<td>@Model.IsActive</td>
+	
+		@if(Model.IsActive==true)
+		{
+			<td>Active</td>	
+		}
+		else
+		{
+			<td>Block</td>
+		}
+
 	<td>
 		<form method="post" asp-action="DeleteUser" asp-route-id="@Model.Id">
 			<button type="submit" class="btn btn-danger"> Delete</button>

@@ -88,8 +88,6 @@ namespace TaskFour.Controllers
             if (ModelState.IsValid)
             {
                 var user1 = await _userManager.FindByEmailAsync(viewModel.Email);
-               
-
                 if (_userManager.Users.Contains(user1))
                 {
                     if (user1.IsActive==true)
