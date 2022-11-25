@@ -11242,11 +11242,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\davro\\Desktop\\ASP.NET CORE\\TaskFour\\TaskFour\\TaskFour.csproj",
+      "projectUniqueName": "C:\\Users\\davro\\Source\\Repos\\Identity-ASP.NET-MVC\\TaskFour\\TaskFour.csproj",
       "projectName": "TaskFour",
-      "projectPath": "C:\\Users\\davro\\Desktop\\ASP.NET CORE\\TaskFour\\TaskFour\\TaskFour.csproj",
+      "projectPath": "C:\\Users\\davro\\Source\\Repos\\Identity-ASP.NET-MVC\\TaskFour\\TaskFour.csproj",
       "packagesPath": "C:\\Users\\davro\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\davro\\Desktop\\ASP.NET CORE\\TaskFour\\TaskFour\\obj\\",
+      "outputPath": "C:\\Users\\davro\\Source\\Repos\\Identity-ASP.NET-MVC\\TaskFour\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

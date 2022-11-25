@@ -9,11 +9,10 @@
     <title>@ViewData["Title"]</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
-    <link href="~/css/position.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
 </head>
 <body>
-    <header class="fixed-header z-index-header">
+    <header>
         <nav id="navbar" class="navbar navbar-expand navbar-light bg-white border-bottom box-shadow">
             <div class="container bg-info">
                 <div class="">
@@ -74,10 +73,10 @@
             </div>
         </nav>
     </header>
-    <div class="container position-relative joylashuv">
-        <div role="main" class="joylashuv z-index-body ">
+    <div class="container p-5">
+        @*<div role="main" class="joylashuv z-index-body ">*@
             @RenderBody()
-        </div>
+     @*   </div>*@
     </div>
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2FDIx+JryTETOK+pnyqhHg0gDa243E+QFT5FFnrg88oQUzaUoOWJ3W/q5LONFdonQ6ZH+AM4piSq+pLjB+G1Fw==",
+  "dgSpecHash": "xRBf93602K0WTYWk4afDszBi+sGR6PGYAr+iSeyDghrTz1dIQgO2T1fIt+euwYcGUmqZlxJMjcCrZWc/vI35lg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\davro\\Desktop\\ASP.NET CORE\\TaskFour\\TaskFour\\TaskFour.csproj",
+  "projectFilePath": "C:\\Users\\davro\\Source\\Repos\\Identity-ASP.NET-MVC\\TaskFour\\TaskFour.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\davro\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\davro\\.nuget\\packages\\jquery\\3.6.1\\jquery.3.6.1.nupkg.sha512",

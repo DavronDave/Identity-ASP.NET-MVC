@@ -1,0 +1,83 @@
+﻿:root {
+    --font: 'Source Sans Pro', sans-serif;
+    --font2: 'Patrick Hand', cursive;
+    ;
+}
+
+.container1 {
+    width: 70%;
+    margin-left:15%;
+    height: 70%;
+    margin-top:5%;
+    background: rgb(30, 210, 66);
+    align-items: center;
+    display: flex;
+    justify-content: center
+}
+
+    .container1 > .first {
+        width: 290px;
+        height: 500px;
+        background-color: rgb(22, 199, 10);
+        border-radius: 0.5rem;
+    }
+
+        .container1 > .first h3 {
+            margin: 2% 0;
+            padding-left: 41%;
+            font-family: var(--font);
+            font-size: 2rem;
+        }
+
+        .container1 > .first input {
+            width: 80%;
+            height: 2rem;
+            margin-top: 20%;
+            margin-left: 11%;
+            outline: none;
+            border: none;
+            border-radius: 2rem;
+            text-align: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        .container1 > .first button {
+            width: 130px;
+            height: 30px;
+            margin-top: 70%;
+            margin-left: 5%;
+            outline: none;
+            border: none;
+            border-radius: 1rem;
+            font-family: var(--font);
+            font-size: 1.3rem;
+            font-weight: 700;
+            background-color: blue;
+        }
+
+            .container1 > .first button:hover {
+                background: rgb(34, 34, 170);
+                box-shadow: 0 0 6px 7px rgb(59, 59, 255);
+                color: white;
+                transition: .3s ease;
+            }
+
+    .container1 > .second {
+        width: 290px;
+        height: 500px;
+        background: rgb(30, 210, 66);
+    }
+
+        .container1 > .second img {
+            margin-top: 45%;
+            margin-left: 30%;
+            width: 400px;
+            height: 400px;
+            border-radius: 45%;
+        }
+
+            .container1 > .second img:hover {
+                margin-top: 46%;
+                transform: skewX(25deg);
+                transition: .4s ease-in-out;
+            }
