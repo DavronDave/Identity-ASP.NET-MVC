@@ -6,11 +6,15 @@
 }
 
 
-    <h1>Login</h1>
+   <div class="container login-container">
+   <div class="text-center">
+        <h1>Login</h1>
+        <hr />
+   </div>
 
-    <hr />
-    <div class="row">
-        <div class="col-md-4">
+
+    <div class="justify-content-center">
+        <div class="">
             <form asp-action="Login">
                 <div asp-validation-summary="All" class="text-danger"></div>
                 <div class="form-group form-floating">
@@ -29,7 +33,7 @@
                     <div class="checkbox">
                         <label asp-for="RememberMe">
                             <input asp-for="RememberMe" />
-                            @Html.DisplayNameFor(m => m.RememberMe);
+                            @Html.DisplayNameFor(m => m.RememberMe)
                         </label>
                     </div>
                 </div>
@@ -41,6 +45,7 @@
             </form>
         </div>
     </div>
+   </div>
 
 @section Scripts {
     @{
