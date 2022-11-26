@@ -24,7 +24,6 @@ namespace TaskFour.Controllers
         [HttpGet]
         public IActionResult Index()
         {
-            
             return View();
         }
 

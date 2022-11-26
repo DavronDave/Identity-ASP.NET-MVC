@@ -63,7 +63,7 @@ namespace TaskFour.Controllers
                     user1.IsActive = true;
                     await _userManager.UpdateAsync(user1);
                     await _signInManager.SignInAsync(us, isPersistent: false);
-                    return RedirectToAction("Index", "Home");
+                    return RedirectToAction("Info", "User");
                 }
 
                 foreach (var item in result.Errors)
@@ -147,24 +147,15 @@ namespace TaskFour.Controllers
         public async Task<IActionResult> Delete(IEnumerable<string> deleteBlock)
         {
             var toCheckUser = await _userManager.GetUserAsync(User);
-            var user1 = await _userManager.FindByIdAsync(toCheckUser.Id);
-            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            var userExist = await _userManager.FindByIdAsync(toCheckUser.Id);
             foreach (var id in deleteBlock)
             {
                 var user = await _userManager.FindByIdAsync(id);
-                // var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
-                //if (id == userId)
-                //{
-                //    await _userManager.DeleteAsync(user);
-                //    await _signInManager.SignOutAsync();
-                //    return RedirectToAction("Login", "User");
-                //}
-                //else
-                    await _userManager.DeleteAsync(user);
+                await _userManager.DeleteAsync(user);
             }
-            _dbContext.SaveChanges(); 
-            var us = await _userManager.FindByEmailAsync(user1.Email);
-            if(us == null)
+            _dbContext.SaveChanges();
+            var us = await _userManager.FindByEmailAsync(userExist.Email);
+            if (us == null)
             {
                 await _signInManager.SignOutAsync();
                 return RedirectToAction("Login", "User");
@@ -176,7 +167,6 @@ namespace TaskFour.Controllers
         [HttpPost]
         public async Task<IActionResult> Block(IEnumerable<string> deleteBlock)
         {
-            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
             foreach (var id in deleteBlock)
             {
                 var user = await _userManager.FindByIdAsync(id);

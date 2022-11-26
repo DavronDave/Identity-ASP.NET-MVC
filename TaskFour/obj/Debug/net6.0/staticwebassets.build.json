@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "05usXt8aqnZpJW+0RalpA5hr8KMrMqWisyOt89vpJaY=",
+  "Hash": "P5VLm155NGnU9WrUbXH6fAy8c7BrXkJGw2nNRg3x2b8=",
   "Source": "TaskFour",
   "BasePath": "_content/TaskFour",
   "Mode": "Default",
@@ -629,40 +629,6 @@
       "OriginalItemSpec": "C:\\Users\\davro\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\5.0.17\\staticwebassets\\V4\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\davro\\Source\\Repos\\Identity-ASP.NET-MVC1\\TaskFour\\wwwroot\\css\\Login.css",
-      "SourceId": "TaskFour",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\davro\\Source\\Repos\\Identity-ASP.NET-MVC1\\TaskFour\\wwwroot\\",
-      "BasePath": "_content/TaskFour",
-      "RelativePath": "css/Login.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\Login.css"
-    },
-    {
-      "Identity": "C:\\Users\\davro\\Source\\Repos\\Identity-ASP.NET-MVC1\\TaskFour\\wwwroot\\css\\login-img.png",
-      "SourceId": "TaskFour",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\davro\\Source\\Repos\\Identity-ASP.NET-MVC1\\TaskFour\\wwwroot\\",
-      "BasePath": "_content/TaskFour",
-      "RelativePath": "css/login-img.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\login-img.png"
-    },
-    {
       "Identity": "C:\\Users\\davro\\Source\\Repos\\Identity-ASP.NET-MVC1\\TaskFour\\wwwroot\\css\\site.css",
       "SourceId": "TaskFour",
       "SourceType": "Discovered",
@@ -695,6 +661,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\davro\\Source\\Repos\\Identity-ASP.NET-MVC1\\TaskFour\\wwwroot\\Images\\image.jpeg",
+      "SourceId": "TaskFour",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\davro\\Source\\Repos\\Identity-ASP.NET-MVC1\\TaskFour\\wwwroot\\",
+      "BasePath": "_content/TaskFour",
+      "RelativePath": "Images/image.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\image.jpeg"
     },
     {
       "Identity": "C:\\Users\\davro\\Source\\Repos\\Identity-ASP.NET-MVC1\\TaskFour\\wwwroot\\js\\site.js",
