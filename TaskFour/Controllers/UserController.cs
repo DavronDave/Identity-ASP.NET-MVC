@@ -90,7 +90,7 @@ namespace TaskFour.Controllers
                 var user1 = await _userManager.FindByEmailAsync(viewModel.Email);
                 if (_userManager.Users.Contains(user1))
                 {
-                    if (user1.IsActive==true)
+                    if (user1.IsActive == true)
                     {
                         var result = await _signInManager.PasswordSignInAsync(viewModel.Email, viewModel.Password,
                         viewModel.RememberMe, false);
@@ -120,27 +120,13 @@ namespace TaskFour.Controllers
             return RedirectToAction("Login", "User");
         }
 
-        //[Authorize]
+
         [HttpGet]
         public IActionResult Info()
         {
             var users = _userManager.Users;
             return View(users);
         }
-
-        //[HttpPost]
-        //public async Task<ActionResult> Info(FormCollection formCollection)
-        //{
-
-        //    //string[] ids = formCollection["UserId"].Split(new char[] { ',' });
-        //    //foreach (var id in ids)
-        //    //{
-        //    //    var user = await _userManager.FindByIdAsync(id);
-        //    //    await _userManager.DeleteAsync(user);
-        //    //}
-        //    return RedirectToAction("Info", "User");
-
-        //}
 
         [HttpPost]
         public async Task<IActionResult> DeleteUser(string id)
@@ -160,33 +146,51 @@ namespace TaskFour.Controllers
         [HttpPost]
         public async Task<IActionResult> Delete(IEnumerable<string> deleteBlock)
         {
+            var toCheckUser = await _userManager.GetUserAsync(User);
+            var user1 = await _userManager.FindByIdAsync(toCheckUser.Id);
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
             foreach (var id in deleteBlock)
             {
                 var user = await _userManager.FindByIdAsync(id);
-                var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
-                if(id==userId)
-                {
-                    await _userManager.DeleteAsync(user);
-                    await _signInManager.SignOutAsync();
-                    return RedirectToAction("Login", "User");
-                }
-                else
+                // var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+                //if (id == userId)
+                //{
+                //    await _userManager.DeleteAsync(user);
+                //    await _signInManager.SignOutAsync();
+                //    return RedirectToAction("Login", "User");
+                //}
+                //else
                     await _userManager.DeleteAsync(user);
             }
-            _dbContext.SaveChanges();
-            return RedirectToAction("Info", "User");
+            _dbContext.SaveChanges(); 
+            var us = await _userManager.FindByEmailAsync(user1.Email);
+            if(us == null)
+            {
+                await _signInManager.SignOutAsync();
+                return RedirectToAction("Login", "User");
+            }
+            else
+                return RedirectToAction("Info", "User");
         }
 
         [HttpPost]
         public async Task<IActionResult> Block(IEnumerable<string> deleteBlock)
         {
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
             foreach (var id in deleteBlock)
             {
                 var user = await _userManager.FindByIdAsync(id);
                 user.IsActive = false;
                 await _userManager.UpdateAsync(user);
             }
-            _dbContext.SaveChanges();
+            var toCheckUser = await _userManager.GetUserAsync(User);
+            if (toCheckUser.IsActive == false)
+            {
+                await _signInManager.SignOutAsync();
+                return RedirectToAction("Login", "User");
+            }
+
+            await _dbContext.SaveChangesAsync();
             return RedirectToAction("Info", "User");
         }
 
@@ -201,6 +205,6 @@ namespace TaskFour.Controllers
             }
             _dbContext.SaveChanges();
             return RedirectToAction("Info", "User");
-        }    
+        }
     }
 }

@@ -52,16 +52,16 @@
 </script>
 
 <div class="container">
-    <div class="card">
-		<div class="card-header bg-primary text-white position-sticky sticky-top-header ">
+    <div class="card border border-success">
+		<div class="card-header bg-success text-white position-sticky sticky-top-header ">
 			<h5>Users list</h5>
 		</div>
-        <div class="card-body table-wrapper-scroll-y my-custom-scrollbar">
+        <div class="card-body">
 			@*@using (Html.BeginForm("Delete", "User", FormMethod.Post))
 			{*@
                 <form asp-action="" asp-controller="User" method="post">
 				    <table class="table table-bordered table-striped">
-                    <thead class="position-sticky sticky-top bg-secondary table-header-sticky">
+                    <thead class="position-sticky sticky-top bg-primary text-white">
 						    <tr>
 							    <th>
                                     <input type="checkbox" id="checkAll"/>

@@ -4,8 +4,10 @@
     ViewData["Title"] = "Registration";
 }
 
-<div class="container col-md-4 bg-info p-4">
-    <h1 class="text-center">Register</h1>
+<div class="container col-md-4 bg-white p-4 rounded border border-success">
+   <div class="bg-success p-1 rounded-top">
+        <h2 class="text-center rounded-top text-white">Register</h2>
+   </div>
     <hr/>
     <div>
         <div class="">
@@ -13,25 +15,25 @@
 
                 <div class="form-group">
                     <label asp-for="Name" class="control-label"></label>
-                    <input asp-for="Name" class="form-control" />
+                    <input asp-for="Name" class="form-control shadow" />
                     <span asp-validation-for="Name" class="text-danger"></span>
                 </div>
 
                 <div class="form-group">
                     <label asp-for="Email" class="control-label"></label>
-                    <input asp-for="Email" type="email" class="form-control" />
+                    <input asp-for="Email" type="email" class="form-control shadow" />
                     <span asp-validation-for="Email" class="text-danger"></span>
                 </div>
 
                 <div class="form-group">
                     <label asp-for="Password" class="control-label"></label>
-                    <input asp-for="Password" type="password" class="form-control" />
+                    <input asp-for="Password" type="password" class="form-control shadow" />
                     <span asp-validation-for="Password" class="text-danger"></span>
                 </div>
 
                 <div class="form-group">
                     <label asp-for="ConfirmPassword" class="control-label"></label>
-                    <input asp-for="ConfirmPassword" type="password" class="form-control" />
+                    <input asp-for="ConfirmPassword" type="password" class="form-control shadow" />
                     <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
                 </div>
               
@@ -41,7 +43,7 @@
                 <div class="container">
 					<div class="row">
 						<div class="col text-center">
-							<button class="btn btn-primary">Create</button>
+                            <button class="btn btn-success shadow">Create</button>
 						</div>
 					</div>
 				</div>

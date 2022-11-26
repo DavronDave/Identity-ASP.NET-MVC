@@ -33,6 +33,7 @@ namespace TaskFour
         {
             services.AddRazorPages();
             services.AddControllersWithViews();
+
             services.AddDbContext<UserDbContext>(option =>      
             option.UseSqlServer(Configuration.GetConnectionString("UserDb")));
 
