@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\davro\\Source\\Repos\\Identity-ASP.NET-MVC1\\TaskFour\\TaskFour.csproj": {}
+    "D:\\mvc\\New folder\\TaskFour\\TaskFour.csproj": {}
   },
   "projects": {
-    "C:\\Users\\davro\\Source\\Repos\\Identity-ASP.NET-MVC1\\TaskFour\\TaskFour.csproj": {
+    "D:\\mvc\\New folder\\TaskFour\\TaskFour.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\davro\\Source\\Repos\\Identity-ASP.NET-MVC1\\TaskFour\\TaskFour.csproj",
+        "projectUniqueName": "D:\\mvc\\New folder\\TaskFour\\TaskFour.csproj",
         "projectName": "TaskFour",
-        "projectPath": "C:\\Users\\davro\\Source\\Repos\\Identity-ASP.NET-MVC1\\TaskFour\\TaskFour.csproj",
+        "projectPath": "D:\\mvc\\New folder\\TaskFour\\TaskFour.csproj",
         "packagesPath": "C:\\Users\\davro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\davro\\Source\\Repos\\Identity-ASP.NET-MVC1\\TaskFour\\obj\\",
+        "outputPath": "D:\\mvc\\New folder\\TaskFour\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -70,6 +70,10 @@
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[6.0.10, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[5.0.10, )"
             },
             "jQuery": {
               "target": "Package",

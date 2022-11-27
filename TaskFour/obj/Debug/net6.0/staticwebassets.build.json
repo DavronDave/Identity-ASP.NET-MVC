@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "P5VLm155NGnU9WrUbXH6fAy8c7BrXkJGw2nNRg3x2b8=",
+  "Hash": "M62GXbbcmFxysT6blcX7Ga8m7GV6VlIjcaI2ncH3UXs=",
   "Source": "TaskFour",
   "BasePath": "_content/TaskFour",
   "Mode": "Default",
@@ -10,7 +10,7 @@
     {
       "Name": "TaskFour\\wwwroot",
       "Source": "TaskFour",
-      "ContentRoot": "C:\\Users\\davro\\Source\\Repos\\Identity-ASP.NET-MVC1\\TaskFour\\wwwroot\\",
+      "ContentRoot": "D:\\mvc\\New folder\\TaskFour\\wwwroot\\",
       "BasePath": "_content/TaskFour",
       "Pattern": "**"
     }
@@ -629,10 +629,10 @@
       "OriginalItemSpec": "C:\\Users\\davro\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\5.0.17\\staticwebassets\\V4\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\davro\\Source\\Repos\\Identity-ASP.NET-MVC1\\TaskFour\\wwwroot\\css\\site.css",
+      "Identity": "D:\\mvc\\New folder\\TaskFour\\wwwroot\\css\\site.css",
       "SourceId": "TaskFour",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\davro\\Source\\Repos\\Identity-ASP.NET-MVC1\\TaskFour\\wwwroot\\",
+      "ContentRoot": "D:\\mvc\\New folder\\TaskFour\\wwwroot\\",
       "BasePath": "_content/TaskFour",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -646,10 +646,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\davro\\Source\\Repos\\Identity-ASP.NET-MVC1\\TaskFour\\wwwroot\\favicon.ico",
+      "Identity": "D:\\mvc\\New folder\\TaskFour\\wwwroot\\favicon.ico",
       "SourceId": "TaskFour",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\davro\\Source\\Repos\\Identity-ASP.NET-MVC1\\TaskFour\\wwwroot\\",
+      "ContentRoot": "D:\\mvc\\New folder\\TaskFour\\wwwroot\\",
       "BasePath": "_content/TaskFour",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -663,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\davro\\Source\\Repos\\Identity-ASP.NET-MVC1\\TaskFour\\wwwroot\\Images\\image.jpeg",
+      "Identity": "D:\\mvc\\New folder\\TaskFour\\wwwroot\\Images\\image.jpeg",
       "SourceId": "TaskFour",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\davro\\Source\\Repos\\Identity-ASP.NET-MVC1\\TaskFour\\wwwroot\\",
+      "ContentRoot": "D:\\mvc\\New folder\\TaskFour\\wwwroot\\",
       "BasePath": "_content/TaskFour",
       "RelativePath": "Images/image.jpeg",
       "AssetKind": "All",
@@ -680,10 +680,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\image.jpeg"
     },
     {
-      "Identity": "C:\\Users\\davro\\Source\\Repos\\Identity-ASP.NET-MVC1\\TaskFour\\wwwroot\\js\\site.js",
+      "Identity": "D:\\mvc\\New folder\\TaskFour\\wwwroot\\js\\site.js",
       "SourceId": "TaskFour",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\davro\\Source\\Repos\\Identity-ASP.NET-MVC1\\TaskFour\\wwwroot\\",
+      "ContentRoot": "D:\\mvc\\New folder\\TaskFour\\wwwroot\\",
       "BasePath": "_content/TaskFour",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -697,10 +697,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\davro\\Source\\Repos\\Identity-ASP.NET-MVC1\\TaskFour\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "D:\\mvc\\New folder\\TaskFour\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "TaskFour",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\davro\\Source\\Repos\\Identity-ASP.NET-MVC1\\TaskFour\\wwwroot\\",
+      "ContentRoot": "D:\\mvc\\New folder\\TaskFour\\wwwroot\\",
       "BasePath": "_content/TaskFour",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -714,10 +714,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\davro\\Source\\Repos\\Identity-ASP.NET-MVC1\\TaskFour\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "D:\\mvc\\New folder\\TaskFour\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "TaskFour",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\davro\\Source\\Repos\\Identity-ASP.NET-MVC1\\TaskFour\\wwwroot\\",
+      "ContentRoot": "D:\\mvc\\New folder\\TaskFour\\wwwroot\\",
       "BasePath": "_content/TaskFour",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -731,10 +731,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\davro\\Source\\Repos\\Identity-ASP.NET-MVC1\\TaskFour\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "D:\\mvc\\New folder\\TaskFour\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "TaskFour",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\davro\\Source\\Repos\\Identity-ASP.NET-MVC1\\TaskFour\\wwwroot\\",
+      "ContentRoot": "D:\\mvc\\New folder\\TaskFour\\wwwroot\\",
       "BasePath": "_content/TaskFour",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -748,10 +748,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\davro\\Source\\Repos\\Identity-ASP.NET-MVC1\\TaskFour\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "D:\\mvc\\New folder\\TaskFour\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "TaskFour",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\davro\\Source\\Repos\\Identity-ASP.NET-MVC1\\TaskFour\\wwwroot\\",
+      "ContentRoot": "D:\\mvc\\New folder\\TaskFour\\wwwroot\\",
       "BasePath": "_content/TaskFour",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -765,10 +765,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\davro\\Source\\Repos\\Identity-ASP.NET-MVC1\\TaskFour\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "D:\\mvc\\New folder\\TaskFour\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "TaskFour",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\davro\\Source\\Repos\\Identity-ASP.NET-MVC1\\TaskFour\\wwwroot\\",
+      "ContentRoot": "D:\\mvc\\New folder\\TaskFour\\wwwroot\\",
       "BasePath": "_content/TaskFour",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -782,10 +782,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\davro\\Source\\Repos\\Identity-ASP.NET-MVC1\\TaskFour\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "D:\\mvc\\New folder\\TaskFour\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "TaskFour",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\davro\\Source\\Repos\\Identity-ASP.NET-MVC1\\TaskFour\\wwwroot\\",
+      "ContentRoot": "D:\\mvc\\New folder\\TaskFour\\wwwroot\\",
       "BasePath": "_content/TaskFour",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -799,10 +799,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\davro\\Source\\Repos\\Identity-ASP.NET-MVC1\\TaskFour\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "D:\\mvc\\New folder\\TaskFour\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "TaskFour",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\davro\\Source\\Repos\\Identity-ASP.NET-MVC1\\TaskFour\\wwwroot\\",
+      "ContentRoot": "D:\\mvc\\New folder\\TaskFour\\wwwroot\\",
       "BasePath": "_content/TaskFour",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -816,10 +816,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\davro\\Source\\Repos\\Identity-ASP.NET-MVC1\\TaskFour\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "D:\\mvc\\New folder\\TaskFour\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "TaskFour",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\davro\\Source\\Repos\\Identity-ASP.NET-MVC1\\TaskFour\\wwwroot\\",
+      "ContentRoot": "D:\\mvc\\New folder\\TaskFour\\wwwroot\\",
       "BasePath": "_content/TaskFour",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -833,10 +833,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\davro\\Source\\Repos\\Identity-ASP.NET-MVC1\\TaskFour\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "D:\\mvc\\New folder\\TaskFour\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "TaskFour",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\davro\\Source\\Repos\\Identity-ASP.NET-MVC1\\TaskFour\\wwwroot\\",
+      "ContentRoot": "D:\\mvc\\New folder\\TaskFour\\wwwroot\\",
       "BasePath": "_content/TaskFour",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -850,10 +850,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\davro\\Source\\Repos\\Identity-ASP.NET-MVC1\\TaskFour\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "D:\\mvc\\New folder\\TaskFour\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "TaskFour",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\davro\\Source\\Repos\\Identity-ASP.NET-MVC1\\TaskFour\\wwwroot\\",
+      "ContentRoot": "D:\\mvc\\New folder\\TaskFour\\wwwroot\\",
       "BasePath": "_content/TaskFour",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -867,10 +867,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\davro\\Source\\Repos\\Identity-ASP.NET-MVC1\\TaskFour\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "D:\\mvc\\New folder\\TaskFour\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "TaskFour",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\davro\\Source\\Repos\\Identity-ASP.NET-MVC1\\TaskFour\\wwwroot\\",
+      "ContentRoot": "D:\\mvc\\New folder\\TaskFour\\wwwroot\\",
       "BasePath": "_content/TaskFour",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -884,10 +884,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\davro\\Source\\Repos\\Identity-ASP.NET-MVC1\\TaskFour\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "D:\\mvc\\New folder\\TaskFour\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "TaskFour",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\davro\\Source\\Repos\\Identity-ASP.NET-MVC1\\TaskFour\\wwwroot\\",
+      "ContentRoot": "D:\\mvc\\New folder\\TaskFour\\wwwroot\\",
       "BasePath": "_content/TaskFour",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -901,10 +901,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\davro\\Source\\Repos\\Identity-ASP.NET-MVC1\\TaskFour\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "D:\\mvc\\New folder\\TaskFour\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "TaskFour",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\davro\\Source\\Repos\\Identity-ASP.NET-MVC1\\TaskFour\\wwwroot\\",
+      "ContentRoot": "D:\\mvc\\New folder\\TaskFour\\wwwroot\\",
       "BasePath": "_content/TaskFour",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -918,10 +918,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\davro\\Source\\Repos\\Identity-ASP.NET-MVC1\\TaskFour\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "D:\\mvc\\New folder\\TaskFour\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "TaskFour",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\davro\\Source\\Repos\\Identity-ASP.NET-MVC1\\TaskFour\\wwwroot\\",
+      "ContentRoot": "D:\\mvc\\New folder\\TaskFour\\wwwroot\\",
       "BasePath": "_content/TaskFour",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -935,10 +935,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\davro\\Source\\Repos\\Identity-ASP.NET-MVC1\\TaskFour\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "D:\\mvc\\New folder\\TaskFour\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "TaskFour",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\davro\\Source\\Repos\\Identity-ASP.NET-MVC1\\TaskFour\\wwwroot\\",
+      "ContentRoot": "D:\\mvc\\New folder\\TaskFour\\wwwroot\\",
       "BasePath": "_content/TaskFour",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -952,10 +952,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\davro\\Source\\Repos\\Identity-ASP.NET-MVC1\\TaskFour\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "D:\\mvc\\New folder\\TaskFour\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "TaskFour",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\davro\\Source\\Repos\\Identity-ASP.NET-MVC1\\TaskFour\\wwwroot\\",
+      "ContentRoot": "D:\\mvc\\New folder\\TaskFour\\wwwroot\\",
       "BasePath": "_content/TaskFour",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -969,10 +969,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\davro\\Source\\Repos\\Identity-ASP.NET-MVC1\\TaskFour\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "D:\\mvc\\New folder\\TaskFour\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "TaskFour",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\davro\\Source\\Repos\\Identity-ASP.NET-MVC1\\TaskFour\\wwwroot\\",
+      "ContentRoot": "D:\\mvc\\New folder\\TaskFour\\wwwroot\\",
       "BasePath": "_content/TaskFour",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -986,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\davro\\Source\\Repos\\Identity-ASP.NET-MVC1\\TaskFour\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "D:\\mvc\\New folder\\TaskFour\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "TaskFour",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\davro\\Source\\Repos\\Identity-ASP.NET-MVC1\\TaskFour\\wwwroot\\",
+      "ContentRoot": "D:\\mvc\\New folder\\TaskFour\\wwwroot\\",
       "BasePath": "_content/TaskFour",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -1003,10 +1003,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\davro\\Source\\Repos\\Identity-ASP.NET-MVC1\\TaskFour\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "D:\\mvc\\New folder\\TaskFour\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "TaskFour",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\davro\\Source\\Repos\\Identity-ASP.NET-MVC1\\TaskFour\\wwwroot\\",
+      "ContentRoot": "D:\\mvc\\New folder\\TaskFour\\wwwroot\\",
       "BasePath": "_content/TaskFour",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -1020,10 +1020,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\davro\\Source\\Repos\\Identity-ASP.NET-MVC1\\TaskFour\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "D:\\mvc\\New folder\\TaskFour\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "TaskFour",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\davro\\Source\\Repos\\Identity-ASP.NET-MVC1\\TaskFour\\wwwroot\\",
+      "ContentRoot": "D:\\mvc\\New folder\\TaskFour\\wwwroot\\",
       "BasePath": "_content/TaskFour",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -1037,10 +1037,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\davro\\Source\\Repos\\Identity-ASP.NET-MVC1\\TaskFour\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "D:\\mvc\\New folder\\TaskFour\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "TaskFour",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\davro\\Source\\Repos\\Identity-ASP.NET-MVC1\\TaskFour\\wwwroot\\",
+      "ContentRoot": "D:\\mvc\\New folder\\TaskFour\\wwwroot\\",
       "BasePath": "_content/TaskFour",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -1054,10 +1054,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\davro\\Source\\Repos\\Identity-ASP.NET-MVC1\\TaskFour\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "D:\\mvc\\New folder\\TaskFour\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "TaskFour",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\davro\\Source\\Repos\\Identity-ASP.NET-MVC1\\TaskFour\\wwwroot\\",
+      "ContentRoot": "D:\\mvc\\New folder\\TaskFour\\wwwroot\\",
       "BasePath": "_content/TaskFour",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -1071,10 +1071,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\davro\\Source\\Repos\\Identity-ASP.NET-MVC1\\TaskFour\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "D:\\mvc\\New folder\\TaskFour\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "TaskFour",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\davro\\Source\\Repos\\Identity-ASP.NET-MVC1\\TaskFour\\wwwroot\\",
+      "ContentRoot": "D:\\mvc\\New folder\\TaskFour\\wwwroot\\",
       "BasePath": "_content/TaskFour",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -1088,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\davro\\Source\\Repos\\Identity-ASP.NET-MVC1\\TaskFour\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "D:\\mvc\\New folder\\TaskFour\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "TaskFour",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\davro\\Source\\Repos\\Identity-ASP.NET-MVC1\\TaskFour\\wwwroot\\",
+      "ContentRoot": "D:\\mvc\\New folder\\TaskFour\\wwwroot\\",
       "BasePath": "_content/TaskFour",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -1105,10 +1105,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\davro\\Source\\Repos\\Identity-ASP.NET-MVC1\\TaskFour\\wwwroot\\lib\\jquery\\jquery.js",
+      "Identity": "D:\\mvc\\New folder\\TaskFour\\wwwroot\\lib\\jquery\\jquery.js",
       "SourceId": "TaskFour",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\davro\\Source\\Repos\\Identity-ASP.NET-MVC1\\TaskFour\\wwwroot\\",
+      "ContentRoot": "D:\\mvc\\New folder\\TaskFour\\wwwroot\\",
       "BasePath": "_content/TaskFour",
       "RelativePath": "lib/jquery/jquery.js",
       "AssetKind": "All",
@@ -1122,10 +1122,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\davro\\Source\\Repos\\Identity-ASP.NET-MVC1\\TaskFour\\wwwroot\\lib\\jquery\\jquery.min.js",
+      "Identity": "D:\\mvc\\New folder\\TaskFour\\wwwroot\\lib\\jquery\\jquery.min.js",
       "SourceId": "TaskFour",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\davro\\Source\\Repos\\Identity-ASP.NET-MVC1\\TaskFour\\wwwroot\\",
+      "ContentRoot": "D:\\mvc\\New folder\\TaskFour\\wwwroot\\",
       "BasePath": "_content/TaskFour",
       "RelativePath": "lib/jquery/jquery.min.js",
       "AssetKind": "All",
@@ -1139,10 +1139,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\davro\\Source\\Repos\\Identity-ASP.NET-MVC1\\TaskFour\\wwwroot\\lib\\jquery\\jquery.min.map",
+      "Identity": "D:\\mvc\\New folder\\TaskFour\\wwwroot\\lib\\jquery\\jquery.min.map",
       "SourceId": "TaskFour",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\davro\\Source\\Repos\\Identity-ASP.NET-MVC1\\TaskFour\\wwwroot\\",
+      "ContentRoot": "D:\\mvc\\New folder\\TaskFour\\wwwroot\\",
       "BasePath": "_content/TaskFour",
       "RelativePath": "lib/jquery/jquery.min.map",
       "AssetKind": "All",
@@ -1156,10 +1156,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\davro\\Source\\Repos\\Identity-ASP.NET-MVC1\\TaskFour\\wwwroot\\lib\\jquery\\jquery.slim.js",
+      "Identity": "D:\\mvc\\New folder\\TaskFour\\wwwroot\\lib\\jquery\\jquery.slim.js",
       "SourceId": "TaskFour",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\davro\\Source\\Repos\\Identity-ASP.NET-MVC1\\TaskFour\\wwwroot\\",
+      "ContentRoot": "D:\\mvc\\New folder\\TaskFour\\wwwroot\\",
       "BasePath": "_content/TaskFour",
       "RelativePath": "lib/jquery/jquery.slim.js",
       "AssetKind": "All",
@@ -1173,10 +1173,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\jquery.slim.js"
     },
     {
-      "Identity": "C:\\Users\\davro\\Source\\Repos\\Identity-ASP.NET-MVC1\\TaskFour\\wwwroot\\lib\\jquery\\jquery.slim.min.js",
+      "Identity": "D:\\mvc\\New folder\\TaskFour\\wwwroot\\lib\\jquery\\jquery.slim.min.js",
       "SourceId": "TaskFour",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\davro\\Source\\Repos\\Identity-ASP.NET-MVC1\\TaskFour\\wwwroot\\",
+      "ContentRoot": "D:\\mvc\\New folder\\TaskFour\\wwwroot\\",
       "BasePath": "_content/TaskFour",
       "RelativePath": "lib/jquery/jquery.slim.min.js",
       "AssetKind": "All",
@@ -1190,10 +1190,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\jquery.slim.min.js"
     },
     {
-      "Identity": "C:\\Users\\davro\\Source\\Repos\\Identity-ASP.NET-MVC1\\TaskFour\\wwwroot\\lib\\jquery\\jquery.slim.min.map",
+      "Identity": "D:\\mvc\\New folder\\TaskFour\\wwwroot\\lib\\jquery\\jquery.slim.min.map",
       "SourceId": "TaskFour",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\davro\\Source\\Repos\\Identity-ASP.NET-MVC1\\TaskFour\\wwwroot\\",
+      "ContentRoot": "D:\\mvc\\New folder\\TaskFour\\wwwroot\\",
       "BasePath": "_content/TaskFour",
       "RelativePath": "lib/jquery/jquery.slim.min.map",
       "AssetKind": "All",
@@ -1207,10 +1207,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\jquery.slim.min.map"
     },
     {
-      "Identity": "C:\\Users\\davro\\Source\\Repos\\Identity-ASP.NET-MVC1\\TaskFour\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "D:\\mvc\\New folder\\TaskFour\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "TaskFour",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\davro\\Source\\Repos\\Identity-ASP.NET-MVC1\\TaskFour\\wwwroot\\",
+      "ContentRoot": "D:\\mvc\\New folder\\TaskFour\\wwwroot\\",
       "BasePath": "_content/TaskFour",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -1224,10 +1224,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\davro\\Source\\Repos\\Identity-ASP.NET-MVC1\\TaskFour\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "D:\\mvc\\New folder\\TaskFour\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "TaskFour",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\davro\\Source\\Repos\\Identity-ASP.NET-MVC1\\TaskFour\\wwwroot\\",
+      "ContentRoot": "D:\\mvc\\New folder\\TaskFour\\wwwroot\\",
       "BasePath": "_content/TaskFour",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -1241,10 +1241,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\davro\\Source\\Repos\\Identity-ASP.NET-MVC1\\TaskFour\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "D:\\mvc\\New folder\\TaskFour\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "TaskFour",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\davro\\Source\\Repos\\Identity-ASP.NET-MVC1\\TaskFour\\wwwroot\\",
+      "ContentRoot": "D:\\mvc\\New folder\\TaskFour\\wwwroot\\",
       "BasePath": "_content/TaskFour",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -1258,10 +1258,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\davro\\Source\\Repos\\Identity-ASP.NET-MVC1\\TaskFour\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "D:\\mvc\\New folder\\TaskFour\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "TaskFour",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\davro\\Source\\Repos\\Identity-ASP.NET-MVC1\\TaskFour\\wwwroot\\",
+      "ContentRoot": "D:\\mvc\\New folder\\TaskFour\\wwwroot\\",
       "BasePath": "_content/TaskFour",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -1275,10 +1275,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\davro\\Source\\Repos\\Identity-ASP.NET-MVC1\\TaskFour\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "D:\\mvc\\New folder\\TaskFour\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "TaskFour",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\davro\\Source\\Repos\\Identity-ASP.NET-MVC1\\TaskFour\\wwwroot\\",
+      "ContentRoot": "D:\\mvc\\New folder\\TaskFour\\wwwroot\\",
       "BasePath": "_content/TaskFour",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -1292,10 +1292,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\davro\\Source\\Repos\\Identity-ASP.NET-MVC1\\TaskFour\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "D:\\mvc\\New folder\\TaskFour\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "TaskFour",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\davro\\Source\\Repos\\Identity-ASP.NET-MVC1\\TaskFour\\wwwroot\\",
+      "ContentRoot": "D:\\mvc\\New folder\\TaskFour\\wwwroot\\",
       "BasePath": "_content/TaskFour",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -1309,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\davro\\Source\\Repos\\Identity-ASP.NET-MVC1\\TaskFour\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "D:\\mvc\\New folder\\TaskFour\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "TaskFour",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\davro\\Source\\Repos\\Identity-ASP.NET-MVC1\\TaskFour\\wwwroot\\",
+      "ContentRoot": "D:\\mvc\\New folder\\TaskFour\\wwwroot\\",
       "BasePath": "_content/TaskFour",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -1326,10 +1326,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\davro\\Source\\Repos\\Identity-ASP.NET-MVC1\\TaskFour\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "D:\\mvc\\New folder\\TaskFour\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "TaskFour",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\davro\\Source\\Repos\\Identity-ASP.NET-MVC1\\TaskFour\\wwwroot\\",
+      "ContentRoot": "D:\\mvc\\New folder\\TaskFour\\wwwroot\\",
       "BasePath": "_content/TaskFour",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -1343,10 +1343,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\davro\\Source\\Repos\\Identity-ASP.NET-MVC1\\TaskFour\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "D:\\mvc\\New folder\\TaskFour\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "TaskFour",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\davro\\Source\\Repos\\Identity-ASP.NET-MVC1\\TaskFour\\wwwroot\\",
+      "ContentRoot": "D:\\mvc\\New folder\\TaskFour\\wwwroot\\",
       "BasePath": "_content/TaskFour",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
