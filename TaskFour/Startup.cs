@@ -26,7 +26,7 @@ namespace TaskFour
             services.AddControllersWithViews();
 
             services.AddDbContext<UserDbContext>(option =>      
-            option.UseNpgsql(Configuration.GetConnectionString("UserDb")));
+            option.UseSqlServer(Configuration.GetConnectionString("UserDb")));
 
             services.AddDefaultIdentity<User>().AddRoles<IdentityRole>()
            .AddEntityFrameworkStores<UserDbContext>();

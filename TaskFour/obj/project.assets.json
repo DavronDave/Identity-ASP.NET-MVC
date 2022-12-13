@@ -11307,11 +11307,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\mvc\\New folder\\TaskFour\\TaskFour.csproj",
+      "projectUniqueName": "C:\\Users\\davro\\Source\\Repos\\Identity-ASP.NET-MVC11\\TaskFour\\TaskFour.csproj",
       "projectName": "TaskFour",
-      "projectPath": "D:\\mvc\\New folder\\TaskFour\\TaskFour.csproj",
+      "projectPath": "C:\\Users\\davro\\Source\\Repos\\Identity-ASP.NET-MVC11\\TaskFour\\TaskFour.csproj",
       "packagesPath": "C:\\Users\\davro\\.nuget\\packages\\",
-      "outputPath": "D:\\mvc\\New folder\\TaskFour\\obj\\",
+      "outputPath": "C:\\Users\\davro\\Source\\Repos\\Identity-ASP.NET-MVC11\\TaskFour\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
